@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+
+
+
+//Compute n  numbers then sum and average
 public class SummationOfSetOfNumbers {
 
 	public static void main(String[] args) {
