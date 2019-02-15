@@ -26,6 +26,8 @@ public class SummationOfSetOfNumbers {
 		}
 		
 		System.err.println("Summation of all number:"+"  "+sum);
+		System.err.println("Size of List"+"   "+list.size());
+		System.out.println("Average of number:"+"  "+sum/list.size());
 
 	}
 
