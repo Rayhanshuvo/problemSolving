@@ -12,13 +12,15 @@ public class FactorialProb {
 
 	private static int factorialProb(int n) {
 		// TODO Auto-generated method stub
-		if (n > 0) {
-            System.out.println(n);
-			return n * factorialProb(n - 1);
+		if (n == 1) {
+           // System.out.println(n);
+            return 1;
+			
 
 		} else {
-			System.err.println(n);
-			return 1;
+			return n * factorialProb(n - 1);
+			//System.err.println(n);
+			
 		}
 
 	}

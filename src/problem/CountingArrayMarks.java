@@ -8,9 +8,7 @@ public class CountingArrayMarks {
 	public static void main(String[] args) {
 		
 		List<Integer> list=new ArrayList<>(); 
-		// TODO Auto-generated method stub
-		// int array[] = new int[10];
-		//ArrayList<Integer> list = new ArrayList<Integer>();
+		
 		Scanner input = new Scanner(System.in);
 
 		System.out.println("Enter how many number you wanna input");
